@@ -162,8 +162,6 @@
 
 /* Título interno */
 .titulo-bg {
-  padding-top: 60px;
-  padding-bottom: 60px;
   background-color: #0c141b;
   background-color: var(--azul-escuro);
 }
@@ -196,9 +194,7 @@
 }
 
 #padding-0 {
-  padding-top: 60px;
   background-color: var(--background);
-  padding-bottom: 0px;
 }
 .margin-60 {
   margin-top: 140px;

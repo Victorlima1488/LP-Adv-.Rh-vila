@@ -8,6 +8,7 @@
   display: inline-block;
   position: relative;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .nosso-time > a {

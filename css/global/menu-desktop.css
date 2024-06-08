@@ -15,8 +15,8 @@
   width: 340px;
   right: 0;
   top: 108px;
-  left: 200px;
-  background-color: rgba(21, 38, 64, 0.85);
+  /* left: 200px; */
+  background-color: #521012;;
 }
 .navigation-desktop nav {
   z-index: 3;

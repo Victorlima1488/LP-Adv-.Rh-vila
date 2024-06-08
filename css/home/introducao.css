@@ -1,5 +1,5 @@
 .main-bg {
-  background: url("../../img/home/background-main.jpeg") center center no-repeat;
+  background: url("../../img/logos/Bg.jpeg") center center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -10,7 +10,8 @@
   height: 100%;
   width: 100%;
   position: absolute;
-  background-color: rgba(21, 38, 64, 0.84);
+  background-color: #521012;
+  opacity: 0.6;
 }
 
 .introducao {
