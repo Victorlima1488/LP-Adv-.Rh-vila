@@ -7,7 +7,7 @@
 }
 #container-contato:after {
   box-shadow: 0 0;
-  background-color: #b27777;
+  background-color: #fdf7eb;
 }
 @media (max-width: 600px) {
   .contato-bg-home {

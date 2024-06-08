@@ -15,7 +15,7 @@ footer {
   gap: 3rem;
 }
 .footer img {
-  max-width: 200px;
+  max-width: 300px;
 }
 .footer-conteudo {
   display: flex;

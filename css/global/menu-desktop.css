@@ -95,7 +95,7 @@
   transform: rotate(-45deg) translate(3px, -8px);
 }
 .navigation-desktop nav li a:hover {
-  color: var(--cor-p5);
+  color: #a16207;
 }
 @media (max-width: 1200px) {
   .navigation-desktop {

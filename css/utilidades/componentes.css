@@ -124,7 +124,7 @@
 }
 
 .ativo {
-  color: var(--cor-p5);
+  color: #a16207;
   display: inline-block;
   position: relative;
   transition: 0.3s;
@@ -194,7 +194,7 @@
 }
 
 #padding-0 {
-  background-color: var(--background);
+  background-color: #fdf7eb;
 }
 .margin-60 {
   margin-top: 140px;
