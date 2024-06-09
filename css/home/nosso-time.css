@@ -4,6 +4,7 @@
     100px;
   display: grid;
 }
+
 .nosso-time h2 {
   display: inline-block;
   position: relative;
@@ -15,7 +16,7 @@
   place-self: center;
 }
 .nosso-time-carrossel {
-  padding: 60px;
+  padding: 46px;
   display: flex;
   gap: 48px;
   position: relative;

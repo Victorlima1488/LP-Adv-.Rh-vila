@@ -1,6 +1,6 @@
 .details {
   margin: 20px 0;
-  background: url("../../img/atuacao/unsplash_b5oSSFUNCHI.png") no-repeat center
+  background: url("../../img/cards/direito-p2.jpg") no-repeat center
     center/cover;
   padding: 30px 20px;
   position: relative;
@@ -48,7 +48,7 @@
 }
 
 .details:hover h2 {
-  background-color: #152640;
+  background-color: #a16207;
   border-radius: 4px;
   color: var(--cor-0);
   transition: 0.6s all;
@@ -77,11 +77,11 @@
   text-decoration: none;
   text-transform: capitalize;
   border-radius: 4px;
-  color: #152640;
+  color: #fdf7eb;
   font-size: 14px;
   padding: 6px 12px;
   display: inline-block;
-  border: 1px solid #152640;
+  border: 1px solid #fdf7eb;
   transition: 2s all;
 }
 
@@ -89,7 +89,7 @@
   content: "";
   width: 5px;
   height: 100%;
-  background-color: #ffd529;
+  background-color: #521012;
   opacity: 0.9;
   position: absolute;
   left: 0;
@@ -105,7 +105,7 @@
 }
 
 .details:hover p {
-  color: #152640;
+  color: #fdf7eb;
 }
 
 @media (max-width: 400px) {

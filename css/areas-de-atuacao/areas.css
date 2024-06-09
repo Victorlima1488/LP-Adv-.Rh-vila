@@ -1,26 +1,26 @@
 .bancario-bg {
   background: linear-gradient(to top, rgb(1, 1, 1) 10%, transparent),
-    url("../../img/cards/bancario.png") center center no-repeat;
+    url("../../img/cards/direito-p.jpg") center center no-repeat;
 }
 
 .trabalhista-bg {
   background: linear-gradient(to top, rgb(1, 1, 1) 10%, transparent),
-    url("../../img/cards/trabalhista.jpg") center center no-repeat;
+    url("../../img/cards/direito-p.jpg") center center no-repeat;
 }
 
 .civil-bg {
   background: linear-gradient(to top, rgb(1, 1, 1) 10%, transparent),
-    url("../../img/cards/civil.png") 0px -140px no-repeat;
+    url("../../img/cards/direito-p.jpg") 0px -140px no-repeat;
 }
 
 .societario-bg {
   background: linear-gradient(to top, rgb(1, 1, 1) 10%, transparent),
-    url("../../img/cards/societario.jpg") center center no-repeat;
+    url("../../img/cards/direito-p.jpg") center center no-repeat;
 }
 
 .tecnologia-bg {
   background: linear-gradient(to top, rgb(1, 1, 1) 10%, transparent),
-    url("../../../img/cards/tecnologia.jpg") center center no-repeat;
+    url("../../../img/cards/direito-p.jpg") center center no-repeat;
 }
 
 #home {
@@ -123,7 +123,7 @@
   align-items: center;
 }
 #areas-atuacao {
-  display: grid;
+  display: flex;
 }
 #areas-atuacao > a {
   margin-top: 3rem;
@@ -135,7 +135,7 @@
 }
 #areas-atuacao > a:hover {
   transition: 0.3s;
-  background: var(--cor-p5);
+  background: rgba(82, 16, 18, 1);
 }
 .area-especifica-introducao-contato img {
   width: 32px;
@@ -151,7 +151,7 @@
 
   .civil-bg {
     background: linear-gradient(to top, rgb(1, 1, 1) 10%, transparent),
-      url("../../img/cards/civil.png") 0px -0px no-repeat;
+      url("../../img/cards/direito-p.jpg") 0px -0px no-repeat;
   }
 
   .area-card {

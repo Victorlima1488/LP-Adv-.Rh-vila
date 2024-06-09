@@ -70,7 +70,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .outras-areas-conteudo.bg-yellow span {
-  color: var(--cor-1);
+  color: #fdf7eb;
 }
 .outras-areas-conteudo div > span {
   z-index: 1;
@@ -79,7 +79,7 @@
   display: block;
   left: 35%;
   transform: translate(-50%, -50%);
-  color: var(--background);
+  color: #fdf7eb;
 }
 .outras-areas-conteudo a > span {
   color: var(--azul-escuro);
@@ -106,7 +106,7 @@
 @media (hover: hover) {
   .outras-areas-conteudo div:hover {
     span {
-      color: var(--cor-p5);
+      color: rgba(82, 16, 18, 1);
     }
   }
 }

@@ -41,21 +41,20 @@
 }
 .saiba-mais-conteudo div::after {
   border-radius: 6px;
-
   content: "";
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
   position: absolute;
-  background: rgba(21, 38, 64, 0.7);
+  background: rgba(82, 16, 18, 0.7);
 }
 .saiba-mais-conteudo div > span {
   display: grid;
   z-index: 1;
   position: absolute;
   top: 80%;
-  left: 20%;
+  left: 28%;
   transform: translate(-50%, -50%);
   align-self: center;
   color: var(--background);
@@ -84,7 +83,7 @@
 @media (hover: hover) {
   .saiba-mais-conteudo div:hover {
     span {
-      color: var(--cor-p5);
+      color: #a16207;
     }
   }
 }
