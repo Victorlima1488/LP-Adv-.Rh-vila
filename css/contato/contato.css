@@ -26,6 +26,7 @@
 .contato-informacao {
   padding-left: 50px;
   z-index: 1;
+  margin-top: 60px;
 }
 
 .p {
@@ -92,7 +93,7 @@
 @media (max-width: 1200px) {
   .contato-bg {
     /* background: url("../../img/contato/contato.jpg") center center no-repeat; */
-    background: url("../../img/contato/ramos-e-batista.jpg") center -20px no-repeat;
+    background: url("../../img/logos/Bg3.jpeg") center -20px no-repeat;
 
     background-size: cover;
     background-position: center;
@@ -137,7 +138,7 @@
   }
   .contato-bg {
     padding: 0;
-    background: url("../../img/contato/ramos-e-batista.jpg") center -20px no-repeat;
+    background: url("../../img/logos/Bg3.jpeg") center -20px no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;

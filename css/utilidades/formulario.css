@@ -3,7 +3,7 @@
   margin-top: 120px;
   padding-bottom: 120px;
   width: 400px;
-  margin: 68 auto;
+  margin: 107px auto;
   box-shadow: 0px 1px 1px 0px rgba(10, 10, 10, 0.79);
 }
 
@@ -61,6 +61,7 @@
     padding: 30px;
     padding-bottom: 60px;
     width: 280px;
+    margin: 68px auto;
   }
 
   .form {
@@ -96,5 +97,6 @@
   .contato-formulario {
     max-width: auto;
     padding: 1rem;
+    margin: 68px auto;
   }
 }
