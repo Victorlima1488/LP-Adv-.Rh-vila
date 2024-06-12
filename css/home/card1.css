@@ -1,7 +1,7 @@
 .details {
   margin: 20px 0;
-  background: url("../../img/cards/direito-p2.jpg") no-repeat center
-    center/cover;
+  background: url(../../img/atuacao/Advogado-previdenciario-1-1024x576.jpg) no-repeat center
+  center/cover;
   padding: 30px 20px;
   position: relative;
   z-index: 1;
@@ -10,8 +10,7 @@
 }
 
 .dois {
-  background: url("../../img/atuacao/Advogado-previdenciario-1-1024x576.jpg")
-    no-repeat center;
+  background: url("../../img/cards/direito-p2.jpg") no-repeat center;
   background-size: cover;
 }
 

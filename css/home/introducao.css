@@ -1,5 +1,5 @@
 .main-bg {
-  background: url("../../img/logos/Bg2.jpg") center center no-repeat;
+  background: url("../../img/logos/deusa_da_justica.jpeg") center center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -51,7 +51,7 @@
 }
 @media (max-width: 600px) {
   .main-bg {
-    background: url("../../img/logos/Bg2.jpg") center center
+    background: url("../../img/logos/deusa_da_justica.jpeg") center center
       no-repeat;
     background-size: cover;
   }

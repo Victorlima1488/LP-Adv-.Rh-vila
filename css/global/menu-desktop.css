@@ -4,7 +4,7 @@
   width: 0px;
   top: 116px;
   left: 200px;
-  height: 430px;
+  height: 549px;
   border-radius: 5px;
   transition: 0.5s;
 }
@@ -14,7 +14,7 @@
 .navigation-desktop.active {
   width: 340px;
   right: 0;
-  top: 108px;
+  top: 87px;
   /* left: 200px; */
   background-color: #521012;
 }
