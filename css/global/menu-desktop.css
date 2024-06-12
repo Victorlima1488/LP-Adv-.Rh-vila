@@ -102,3 +102,13 @@
     display: none;
   }
 }
+
+.visible-item {
+  display: none;
+}
+
+@media (min-width: 2000px) {
+  .visible-item {
+    display: block; /* Exibir o elemento apenas quando a resolução da tela estiver dentro da faixa especificada */
+  }
+}

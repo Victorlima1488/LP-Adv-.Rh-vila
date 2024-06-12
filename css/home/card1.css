@@ -1,6 +1,6 @@
 .details {
   margin: 20px 0;
-  background: url(../../img/atuacao/Advogado-previdenciario-1-1024x576.jpg) no-repeat center
+  background: url("../../img/atuacao/Advogado-previdenciario-1-1024x576.jpg") no-repeat center
   center/cover;
   padding: 30px 20px;
   position: relative;
@@ -110,6 +110,8 @@
 @media (max-width: 400px) {
   .details {
     padding-bottom: 60px;
+    background: url("../../img/atuacao/Advogado-previdenciario-1-1024x576.jpg") no-repeat center
+    center/cover;
   }
   .details h2 {
     font-size: 1rem;

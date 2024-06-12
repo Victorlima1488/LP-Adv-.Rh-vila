@@ -92,11 +92,13 @@
   }
   .nossos-escritorios img {
     width: 800px;
-    height: 300px;
-    object-fit: cover;
+    height: 180px;
+    object-fit: contain;
     object-position: center;
   }
 }
+
+
 
 @media (max-width: 350px) {
   .nossos-escritorios-bg h2 {

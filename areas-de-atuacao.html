@@ -21,6 +21,22 @@
 
     gtag('config', 'G-Q8091WX4J1');
   </script>
+  <style>
+    /* Estilo padrão para a imagem */
+    #saiba-mais-nosso-time {
+      width: 100%; /* Definir a largura como 100% para preencher o contêiner */
+      height: 320; /* Altura automática para manter a proporção */
+      object-fit: cover; /* Manter a proporção da imagem */
+    }
+  
+    /* Aplicar estilos quando a largura da tela for menor que 500px */
+    @media screen and (max-width: 500px) {
+      #saiba-mais-nosso-time {
+        object-fit: contain; /* Alterar o ajuste do objeto para 'contain' */
+        height: 280px; /* Definir a altura para 280px */
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -30,6 +46,7 @@
   <div id="home">
     <header id="scrollar" class="header container" style="background-color: #521012;">
       <div id="menu-invisivel"></div>
+      <div id="menu-invisivel" class="visible-item"></div>
       <a id="z-index-img" href="./">
         <img class="fadeInDown" width="700px" height="350px" src="img/logos/imgLogo-header.png" alt="Logo Rhávila Guedes">
       </a>
@@ -84,7 +101,7 @@
       </div>
     </header>
     <main>
-      <div class="container" style="padding-top: 140px; background: #5c1719; text-align: start;">
+      <div class="container" style="padding-top: 140px; background: #5c1719; text-align: start; max-width: 100%;">
           <h1 data-anime="400" class="fadeInDown font-3-xxl cor-0" style="font-size: 2rem; padding: 2vw;">
               Nossos serviços
           </h1>
@@ -130,13 +147,13 @@
       <div class="outras-areas-conteudo bg-yellow">
         <a href="direito-trabalhista.html">
           <div>
-            <img src="img/cards/direito-p2.jpg" alt="Direito do Trabalho" />
+            <img src="img/atuacao/Advogado-previdenciario-1-1024x576.jpg" alt="Direito do Trabalho" />
             <span class="link transicao font-1-l ">DIREITO PREVIDENCIÁRIO</span>
           </div>
         </a>
         <a href="direito-previdenciario.html">
           <div>
-            <img id="outras-areas-nosso-time" src="img/cards/direito-previdenciario.jpg" alt="Direito Previdenciário" />
+            <img id="outras-areas-nosso-time" src="img/cards/AbaPlanejamentoPrevidenciário.jpg" alt="Direito Previdenciário" />
             <span class="link transicao font-1-l">PLANEJAMENTO PREVIDENCIÁRIO</span>
 
           </div>
@@ -146,14 +163,14 @@
     </div>
   </article>
   <article class="saiba-mais container">
-    <h2 class="font-3-xxl cor-azul-escuro slideInRight" style="color: #521012; margin-top: 70px;">
+    <h2 class="font-3-xxl cor-azul-escuro slideInRight" style="color: #521012; margin-top: 70px; text-align: center;">
       saiba mais
     </h2>
 
     <div class="saiba-mais-conteudo">
       <a href="quem-somos.html" class="slideInRight">
         <div>
-          <img src="img/home/simbolo_canva.png" alt="logo" />
+          <img src="img/home/simbolo_canva.png" alt="logo"/>
           <span class="link transicao font-1-l ">quem somos</span>
         </div>
       </a>
@@ -161,7 +178,7 @@
       <a href="https://previdenciaemcena.blogspot.com/" class="slideInRight">
         <div>
           <img id="saiba-mais-nosso-time" src="img/home/Previdência em cena - imagem com link.jpg" alt="Áreas de atuação" />
-          <span class="link transicao font-1-l " style="left: 33%;">cenário previdenciario</span>
+          <span class="link transicao font-1-l " style="left: 37%;">cenário previdenciario</span>
 
         </div>
       </a>

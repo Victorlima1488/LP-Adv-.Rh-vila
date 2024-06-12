@@ -16,7 +16,7 @@
 .navigation nav {
   z-index: 10;
   position: absolute;
-  top: 180px;
+  top: 100px;
   right: 20px;
   width: 240px;
 }
